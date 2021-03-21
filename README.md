@@ -217,11 +217,11 @@ import fullscrn from './fullscrn'
 
 The [MIT License](LICENSE) &copy; 2021 by QuITS
 
-[license-badge]: https://badgen.net/npm/license/@quitsmx/eslint-config
-[license-url]: https://github.com/quitsmx/eslint-config/blob/master/LICENSE
-[npm-badge]: https://badgen.net/npm/v/@quitsmx/eslint-config
-[npm-url]: https://www.npmjs.com/package/@quitsmx/eslint-config
-[size-badge]: https://badgen.net/bundlephobia/minzip/@quitsmx/eslint-config
-[size-url]: https://bundlephobia.com/result?p=@quitsmx/eslint-config
+[license-badge]: https://badgen.net/npm/license/@quitsmx/fullscrn
+[license-url]: https://github.com/quitsmx/fullscrn/blob/master/LICENSE
+[npm-badge]: https://badgen.net/npm/v/@quitsmx/fullscrn
+[npm-url]: https://www.npmjs.com/package/@quitsmx/fullscrn
+[size-badge]: https://badgen.net/bundlephobia/minzip/@quitsmx/fullscrn
+[size-url]: https://bundlephobia.com/result?p=@quitsmx/fullscrn
 [types-badge]: https://badgen.net/npm/types/tslib
-[types-url]: https://github.com/quitsmx/eslint-config
+[types-url]: https://github.com/quitsmx/fullscrn
