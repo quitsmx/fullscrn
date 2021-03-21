@@ -1,0 +1,9 @@
+{
+  "root": true,
+  "extends": ["@quitsmx"],
+  "ignorePatterns": ["/index.*", "dist"],
+  "parserOptions": { "ecmaVersion": 2018 },
+  "rules": {
+    "@typescript-eslint/method-signature-style": 0
+  }
+}

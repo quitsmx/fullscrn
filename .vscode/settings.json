@@ -1,0 +1,39 @@
+{
+  "npm.packageManager": "yarn",
+  "git.autofetch": true,
+  "git.autoStash": true,
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+  "typescript.format.semicolons": "remove",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.suggest.completeFunctionCalls": true,
+  // "typescript.tsdk": "node_modules/typescript/lib",
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+
+  // Formatear JS/TS con ESLint+PrettierX (@quitsmx)
+  "eslint.format.enable": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+
+  // Formatear otros con PrettierX, pero no los SCSS
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.quickSuggestions": true,
+    "editor.wordWrap": "on",
+    "files.trimTrailingWhitespace": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  }
+}

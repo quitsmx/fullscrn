@@ -1,0 +1,43 @@
+{
+  "name": "@quitsmx/fullscrn",
+  "version": "1.0.0",
+  "description": "Simple wrapper for cross-browser usage of the JavaScript Fullscreen API, which lets you bring the page or any element into fullscreen.",
+  "main": "./index.js",
+  "module": "dist/fullscrn.js",
+  "source": "src/fullscrn.ts",
+  "license": "MIT",
+  "author": "quits.mx",
+  "files": [
+    "index.*",
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=12.0.0",
+    "yarn": "^1.22.10"
+  },
+  "scripts": {
+    "build": "rollup -c --environment NODE_ENV:production",
+    "test": "echo no test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quitsmx/fullscrn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/quitsmx/fullscrn/issues"
+  },
+  "browserslist": [
+    "> 0.2% and not dead and since 2018",
+    "not and_qq > 0"
+  ],
+  "devDependencies": {
+    "@quitsmx/eslint-config": "~0.4.2",
+    "@wessberg/rollup-plugin-ts": "~1.3.10",
+    "eslint": "~7.22.0",
+    "prettier": "aMarCruz/prettier",
+    "rollup": "~2.42.1",
+    "typescript": "~4.2.3"
+  },
+  "dependencies": {}
+}
